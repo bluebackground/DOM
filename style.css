@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /*background: url("background.jpg");*/
+  /*background: #f2f2f2;*/
+  color: #555;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+input, button, select {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*Layout Section*/
+.content1c {
+  align-content: center;
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 1.3rem;
+}
+
+.topContainer {
+  width: 100%;
+}
+
+.bg-image-holder {
+  background-image: url("https://lambdaschool.com/assets/img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transform: translate3d(0px, 0px, 0px);
+  top: 0px;
+  height: 612px;
+}
+
+.parallax {
+  overflow: hidden;
+  position: relative;
+  will-change: contents;
+}
+
+/*navigation bar*/
+.navBar {
+  align-items: center;
+  background: rgba(51, 167, 234, 0.45);
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem;
+  /*position: fixed;*/
+  top: 0;
+  width: 100%;
+}
+
+.navBar-nav {
+  align-items: center;
+  justify-content: center;
+
+  /*align-content: center;*/
+
+  color: rgba(255,255,255,0.7);
+  display: flex;
+  font-size: 2.4rem;
+  font-weight: 400;
+  list-style: none;
+}
+
+.navBar-navItem {
+  /*background: #33a7ea;*/
+  /*border: 1px solid rgba(255,255,255,0.5);*/
+  color: rgba(255,255,255,0.7);
+  /*cursor: pointer;*/
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 200;
+  /*outline: none;*/
+  padding: 0.8rem;
+  text-transform: uppercase;
+  /*transition: background .2s ease;*/
+  text-align: center;
+  width: 80px;
+}
+
+.navBar-navItem:hover, .navBar-navItem:focus {
+  /*background: #fff;*/
+  /*border: 1px solid #33a7ea;
+  color: #33a7ea;*/
+  border: 1px solid rgba(255,255,255,1);
+  color: rgba(255,255,255,1);
+}
+
+/*welcome section*/
+.billboard {
+  /*align-content: center;*/
+  background: rgba(51, 167, 234, 0.25);
+
+  display: flex;
+  height: 400px;
+  /*justify-content: center;*/
+  /*margin-top: 1.6rem;*/
+  text-align: center;
+  width: 100%
+}
+
+.footer {
+  background: #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  padding: 4.8rem;
+}
+
+.footer-links {
+  display: inline-flex;
+  /*justify-content: space-between;*/
+  list-style: none;
+  margin: 1.3rem 0;
+}
+
+.footer-link {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+
+.social-links {
+  display: inline-flex;
+  list-style: none;
+  margin: 1.3rem 0;
+}
+
+.social-link {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.copyright {
+  margin-top: 2.4rem;
+}
+
+.chat {
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+}
+
+.chat-area {
+  border: 1px solid #33a7ea;
+}
+
+.chat-button {
+  background: #33a7ea;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 200;
+  height: 4rem;
+  line-height: 1;
+  width: 4rem;
+  outline: none;
+  transition: background .2s ease;
+}
+
+.chat-button:hover, .chat-button:focus {
+  background: #fff;
+  border: 1px solid #33a7ea;
+  color: #33a7ea
+}
